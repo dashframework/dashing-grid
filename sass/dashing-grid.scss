@@ -1,11 +1,11 @@
 /*! dashing-grid v1.0.0 | MIT License */
 
-// Import Core Library
-  @import '../bower_components/normalize/normalize.css';
-  @import '../bower_components/dashing-core/sass/dashing-core';
-  @import 'dashing-grid/setup';
+// Import Bower Dependencies
+  //@import '../bower_components/normalize/normalize.css';
+  //@import '../bower_components/dashing-core/sass/dashing-core';
 
 // Import Setup Componenets
+  @import 'dashing-grid/setup';
   @import 'dashing-grid/flex';
   @import 'dashing-grid/grid';
 
