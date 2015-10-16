@@ -1,0 +1,46 @@
+/* Grid Styles
+  =========================================================================== */
+
+.row {
+  @extend %clearfix;
+  margin: auto;
+  max-width: $global-content-width;
+  width: 100%;
+}
+
+.column {
+  @extend %clearfix;
+  padding: $grid-gutter;
+
+  &.nested { padding: 0.5rem; }
+
+  &.full,
+  &.two-thirds,
+  &.three-fourths,
+  &.half,
+  &.third,
+  &.fourth,
+  &.sixth,
+  &.eighth {
+    width: 100%;
+  }
+
+  @media #{$tablet} {
+    float: left;
+
+    &.flow-opposite { float: right; }
+
+    &.full {
+      float: none;
+      width: 100%;
+    }
+
+    &.two-thirds { width: 66.666%; }
+    &.three-fourths { width: 75%; }
+    &.half { width: 50%; }
+    &.third { width: 33.333%; }
+    &.fourth { width: 25%; }
+    &.sixth { width: 16.666%; }
+    &.eighth { width: 12.5%; }
+  }
+}
