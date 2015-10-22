@@ -1,6 +1,6 @@
 {
   "name": "dashing-grid",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "main": "sass/dashing-grid.scss",
 
   "homepage": "http://developers.samaritanministries.org/",
@@ -13,6 +13,6 @@
   },
 
   "dependencies": {
-    "dashing-core": "1.0.3"
+    "dashing-core": "1.0.5"
   }
 }
